@@ -1,0 +1,78 @@
+@media only screen and (max-width:560px) {
+    .logo img {
+        width: 90px;
+    }
+    .navbar ul li:first-of-type {
+        margin-right: 20px;
+    }
+    .navbar ul li:last-of-type {
+        margin-left: 20px;
+    }
+    .navbar ul {
+        font-size: 12px;
+    }
+    .navbar {
+        margin-top: 8px;
+    }
+}
+@media only screen and (max-width:1386px) {
+    .h-img {
+        float: none;
+        text-align: center;
+    }
+    .h-text {
+        float: none;
+        text-align: center;
+    }
+    .h-email {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .h-button {
+        display: block;
+        margin: 0 auto;
+        width: 280px;
+    }
+    .s1 {
+        height: auto;
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (max-width:1248px) {
+    .container {
+        padding-top: 10px;
+    }
+    .s2-img {
+        float: none;
+        margin-bottom: 70px;
+    }
+    .s2-text {
+        float: none;
+    }
+    .s2 {
+        height: auto;
+        padding-bottom: 90px;
+    }
+    .s2-img {
+        text-align: center;
+    }
+    .s2-text {
+        text-align: center;
+    }
+    .avatar {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:1078px) {
+    .s3 {
+        height: auto;
+    }
+    .s3-text {
+        float: none;
+    }
+    .s3-form {
+        float: none;
+    }
+}
