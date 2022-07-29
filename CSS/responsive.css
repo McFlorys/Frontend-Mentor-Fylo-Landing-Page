@@ -27,7 +27,7 @@
     .h-email {
         display: block;
         margin: 0 auto;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     .h-button {
         display: block;
@@ -42,6 +42,7 @@
 @media only screen and (max-width:1248px) {
     .container {
         padding-top: 10px;
+        margin: 0 auto;
     }
     .s2-img {
         float: none;
@@ -63,16 +64,92 @@
     .avatar {
         margin: 0 auto;
         margin-top: 50px;
+        text-align: left;
     }
 }
 @media only screen and (max-width:1078px) {
     .s3 {
         height: auto;
+        text-align: center;
     }
     .s3-text {
         float: none;
     }
     .s3-form {
         float: none;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .s3-container {
+        height: auto;
+    }
+    .s3-button {
+        margin: 0 auto;
+        width: 285px;
+    }
+    .s3-email {
+        width: 265px;
+        margin-bottom: 10px;
+        margin: 10px auto;
+    }
+}
+@media only screen and (max-width:825px){
+    .f-list ul {
+        column-gap: 18px;
+    }
+}
+@media only screen and (max-width:780px){
+    .h-img img {
+        width: 85vw;
+    }
+    .s2-img img {
+        width: 80vw;
+    }
+}
+@media only screen and (max-width:465px){
+    .avatar {
+        width: 58vw;
+        height: auto;
+    }
+}
+@media only screen and (max-width:475px){
+    .s3-email {
+        width: 55vw;
+        margin-bottom: 10px;
+    }
+    .s3-button {
+        width: 60vw;
+    }
+    .h-email {
+        width: 55vw;
+    }
+    .h-button {
+        width: 60vw;
+    }
+}
+@media only screen and (max-width:670px) {
+    .f-list ul {
+        column-count: 1;
+    }
+    .f-container {
+        display: block;
+        text-align: center;
+    }
+    .f-contact img {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .f-contact p {
+        margin-left: 0;
+    }
+    .f-logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .f-list {
+        margin-bottom: 20px;
+    }
+    .f-icon i:last-of-type {
+        margin-right: 0;
     }
 }

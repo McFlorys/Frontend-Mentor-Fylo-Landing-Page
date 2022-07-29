@@ -71,6 +71,11 @@ header {
     color: white;
     border-radius: 3px;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    transition: all ease-in-out 0.2s;
+}
+.h-button:hover {
+    background-color: #6a9bfe;
+    cursor: pointer;
 }
 .h-img {
     float: right;
@@ -88,7 +93,7 @@ header {
     height: 115px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/images/bg-curve-desktop.svg);
+    background-image: url(./images/bg-curve-desktop.svg);
 }
 .s2 {
     margin: 0 auto;
@@ -123,6 +128,15 @@ header {
     text-decoration: none;
     padding-bottom: 4px;
     border-bottom: 1px solid ;
+    transition: all ease-in-out 0.2s;
+}
+.s2-text a:hover {
+    color:#2cd7c2;
+}
+.arrow {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 .avatar {
     margin-top: 40px;
@@ -199,6 +213,7 @@ header {
     border: 1px solid black;
     margin-bottom: 10px;
     padding-left: 20px;
+    border-radius: 3px;
 }
 .s3-button {
     display: block;
@@ -210,6 +225,12 @@ header {
     border: none;
     color: white;
     box-shadow: 0 0.2rem 0.6rem rgb(0 0 0 / 20%);
+    transition: all ease-in-out 0.2s;
+    border-radius: 3px;
+}
+.s3-button:hover {
+    background-color: #6a9bfe;
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -224,7 +245,7 @@ header {
 }
 footer {
     background-color: hsl(243, 87%, 12%);
-    padding-bottom: 80px;
+    padding: 0px 40px 80px 40px;
 }
 .f-container {
     max-width: 1340px;
@@ -255,10 +276,23 @@ footer {
     color: white;
     font-family: 'Open Sans';
 }
+.f-list ul li {
+    transition: all ease-in-out 0.2s;
+}
+.f-list ul li:hover {
+    color: hsl(238, 22%, 44%);
+    cursor: pointer;
+}
 .f-icon {
     color: white;
     font-size: 25px;
+    margin-top: 10px;
 }
 .f-icon i {
     margin-right: 15px;
+    transition: all ease-in-out 0.2s;
+}
+.f-icon i:hover {
+    color: hsl(238, 22%, 44%);
+    cursor: pointer;
 }
