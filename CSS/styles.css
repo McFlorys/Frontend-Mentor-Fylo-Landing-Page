@@ -241,7 +241,7 @@ header {
     margin: 0 auto;
 }
 .f-logo img {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(261deg) brightness(102%) contrast(101%);
+    filter: brightness(0) invert();
 }
 footer {
     background-color: hsl(243, 87%, 12%);
